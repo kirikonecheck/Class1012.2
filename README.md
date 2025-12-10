@@ -1,6 +1,7 @@
 # Class1012.2
 Exercise
 
+## №1
 ```mermaid
 flowchart TD
     A[Начало] --> B[Кипячение воды]
@@ -15,6 +16,7 @@ flowchart TD
     F --> G[Конец]
 ```
 
+## №2
 ```mermaid
 sequenceDiagram
     participant Клиент
@@ -32,6 +34,7 @@ sequenceDiagram
     Водитель->>Клиент: Забирает клиента
 ```
 
+## №3
 ```mermaid
 classDiagram
     class Book {
@@ -68,6 +71,8 @@ classDiagram
     Library "1" o-- "*" User : manages
 ```
 
+
+## №4
 ```mermaid
 gantt
     title Диаграмма Ганта: Разработка мобильного приложения
@@ -84,6 +89,8 @@ gantt
     Сдача проекта        :milestone, m1, after a5, 0d
 ```
 
+
+## №5
 ```mermaid
 graph TD
     %% Основные узлы
@@ -154,6 +161,8 @@ graph TD
     class Browser browser
 ```
 
+
+## №6
 ```mermaid
 stateDiagram-v2
     [*] --> Новый : Создание заказа
@@ -195,6 +204,8 @@ stateDiagram-v2
     Отменен --> [*] : Завершен отменой
 ```
 
+
+## №7
 ```mermaid
 journey
     title Путь пользователя: Покупка билетов в кино
@@ -241,6 +252,8 @@ graph TD
     end
 ```
 
+
+## №8
 ```mermaid
 erDiagram
     %% Сущности
@@ -297,6 +310,8 @@ erDiagram
     COMMENTS }o--|| USERS : belongs_to
 ```
 
+
+## №9
 ```mermaid
 flowchart TD
     Start[Начало] --> A[Открытие приложения/сайта]
@@ -349,6 +364,7 @@ flowchart TD
     AC --> AD[Конец]
 ```
 
+## №10
 ```mermaid
 pie title Детальное распределение автомобильного рынка России
     "Иномарки (новые)" : 15.2
